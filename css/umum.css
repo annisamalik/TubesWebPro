@@ -11,6 +11,7 @@
 
 body {
      font-family: 'Roboto', sans-serif !important;
+     background-color: #fcfcfc !important;
    }
 
 .warna {
@@ -20,6 +21,7 @@ body {
 
 .inputan {
      transition: border-bottom 0.3s ease;
+     background-color: #fcfcfc;
 }
 
 .inputan:focus {
@@ -31,4 +33,5 @@ body {
 .tombol {
      background-color: #e86b32 !important;
      color : white !important;
+
 }
