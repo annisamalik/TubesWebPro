@@ -1,5 +1,24 @@
 .ininavgua {
      -webkit-box-shadow: 0 8px 6px -6px #999;
-        -moz-box-shadow: 0 8px 6px -6px #999;
-             box-shadow: 0 8px 6px -6px #999;
+     -moz-box-shadow: 0 8px 6px -6px #999;
+     box-shadow: 0 8px 6px -6px #999;
+}
+
+.testing {
+     margin-left: 30%;
+     margin-right: 30%;
+}
+
+body {
+     font-family: 'Roboto', sans-serif !important;
+   }
+
+.warna {
+     color :#4d4d4d;
+     
+}
+
+.inputan:focus {
+     outline: none;
+     border-bottom: 1px solid #e86b32 !important;
 }
