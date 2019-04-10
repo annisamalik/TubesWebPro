@@ -5,9 +5,13 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width = device-width, initial-scale = 1">
             <link rel="stylesheet" href="css/umum.css" type= "text/css">
-            <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-            <title>Loket.com: Buat Event Gratis & Jual Eventmu Sendiri</title>
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <script src="js/java.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/hideshowpassword/2.0.8/hideShowPassword.min.js"></script>
+            <title>Loket.com: Buat Event Gratis & Jual Eventmu Sendiri</title>
+</head>
         </head>
         <body>
             <header>
@@ -33,20 +37,30 @@
                 <div class="testing">
                   <p class="warna" style="font-size:14px;">Email</p>
                   <input type="email" class="inputan warna" style=" width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;" />
+
                   <p class="warna" style="font-size:14px;">Password</p>
-                  <input type="password" class="inputan warna" style="width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;" /> <br>
+                  <div class="form-group has-feedback">
+                    <input type="password" class="inputan warna" id="password" style="width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;">
+                    <i class="glyphicon glyphicon-eye-open form-control-feedback"></i>
+                  </div>
                   <input  type="checkbox" style=" margin-top :5%; margin-bottom: 5%;" name="" value="">
-                  <div class="warna">Dengan mendaftar, saya menyetujui <a href="#" style="color:#e86b32;">syarat dan ketentuan</a> serta
+                  <div class="warna">Dengan mendaftar, saya menyetujui <a href="#" style="color:#e86b32; text-decoration: none;">syarat dan ketentuan</a> serta
                   kebijakan privasi LOKÉT. <br></div>
                   <input type="submit" value="DAFTAR" class="btn tombol" style="font-weight:500 ;width: 100%; font-size: 13px; padding-top: 15px; padding-bottom: 15px">
                 </div>
               </form>
             </div>
+            <script type="text/javasrcipt">
+                $('#password + .glyphicon').on('click', function() {
+                    $(this).toggleClass('glyphicon-eye-close').toggleClass('glyphicon-eye-open'); // toggle our classes for the eye icon
+                    $('#password').togglePassword(); // activate the hideShowPassword plugin
+                  });
+            </script>
 
 
 
 
-
+         
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

@@ -35,3 +35,11 @@ body {
      color : white !important;
 
 }
+
+
+#password + .glyphicon {
+     cursor: pointer;
+     pointer-events: all;
+   }
+  
+  /* Styles for CodePen Demo Only */
