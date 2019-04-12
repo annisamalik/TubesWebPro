@@ -5,27 +5,25 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width = device-width, initial-scale = 1">
             <link rel="stylesheet" href="css/umum.css" type= "text/css">
-            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-            <script src="js/java.js"></script>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/hideshowpassword/2.0.8/hideShowPassword.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
             <title>Loket.com: Buat Event Gratis & Jual Eventmu Sendiri</title>
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
         </head>
         <body>
-            <header>
-              <div class="navbar ininavgua ">
-                <div class="container">
-                  <a class="navbar-brand d-flex " href="#">
-                      <img src="assets/logo.png" width="186" height="47"  alt="">
-                  </a>
-                  <a href="#" style="font-size: 14px; text-decoration:none; color: #4d4d4d; text-transform:uppercase; font-weight:bold !important;">
-                    KEMBALI
-                  </a>
-                </div>
+          <header>
+            <div class="navbar ininavgua ">
+              <div class="container">
+                <a class="navbar-brand d-flex " href="#">
+                    <img src="assets/logo.png" width="140px" height="35px" style="margin-left:-30px; margin-bottom: 10px; margin-top: 10px;" alt="">
+                </a>
+                <a href="#" style="font-size: 14px; margin-right: -32px; text-decoration:none; color: #4d4d4d; text-transform:uppercase; font-weight:bold !important;">
+                  KEMBALI
+                </a>
               </div>
-            </header>
+            </div>
+          </header>
             <br><br><br><br><br><br><br>
             <div class="container " >
               <h1 class="text-center warna" style="font-size: 24px; margin-bottom: 2%; margin-top: 2%;">DAFTAR</h1>
@@ -35,27 +33,23 @@
                     Sudah punya akun?<a href="login.html" style="color: #e86b32; font-size: 15px; text-decoration:none;"> Klik di sini untuk masuk</a></p>
                 </div>
                 <div class="testing">
-                  <p class="warna" style="font-size:14px;">Email</p>
-                  <input type="email" class="inputan warna" style=" width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;" />
-
-                  <p class="warna" style="font-size:14px;">Password</p>
-                  <div class="form-group has-feedback">
-                    <input type="password" class="inputan warna" id="password" style="width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;">
-                    <i class="glyphicon glyphicon-eye-open form-control-feedback"></i>
-                  </div>
-                  <input  type="checkbox" style=" margin-top :5%; margin-bottom: 5%;" name="" value="">
-                  <div class="warna">Dengan mendaftar, saya menyetujui <a href="#" style="color:#e86b32; text-decoration: none;">syarat dan ketentuan</a> serta
-                  kebijakan privasi LOKÉT. <br></div>
-                  <input type="submit" value="DAFTAR" class="btn tombol" style="font-weight:500 ;width: 100%; font-size: 13px; padding-top: 15px; padding-bottom: 15px">
+                    <p class="warna" style="font-size:14px;">Email</p>
+                    <input type="email" class="inputan warna" style=" width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;" />
+                    <p class="warna" style="font-size:14px;">Password</p>
+                    <div class="form-group has-feedback">
+                      <input type="password"  value="" class="inputan" id="password" style="width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8; ">
+                      <span class=" khususini far fa-eye-slash form-control-feedback"></span> <br>
+                    </div>
+                    <input  type="checkbox" style=" float: left; margin-top :5px; margin-bottom: 5%;" name="" value="">
+                      <div class="warna " style="margin-left: 25px; margin-top: -15px;">
+                        Dengan mendaftar, saya menyetujui <a href="#" style="color:#e86b32; text-decoration: none;">syarat dan ketentuan</a> serta
+                        kebijakan privasi LOKÉT. <br>
+                      </div>
+                    <input type="submit" value="DAFTAR" class="btn tombol" style="font-weight:500 ;width: 100%; font-size: 13px; padding-top: 15px; padding-bottom: 15px">
                 </div>
               </form>
             </div>
-            <script type="text/javasrcipt">
-                $('#password + .glyphicon').on('click', function() {
-                    $(this).toggleClass('glyphicon-eye-close').toggleClass('glyphicon-eye-open'); // toggle our classes for the eye icon
-                    $('#password').togglePassword(); // activate the hideShowPassword plugin
-                  });
-            </script>
+            
 
 
 
