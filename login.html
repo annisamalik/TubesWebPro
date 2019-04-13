@@ -8,20 +8,22 @@
             <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
             <title>Loket.com: Buat Event Gratis & Jual Eventmu Sendiri</title>
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+            <script src="js/java.js"></script>
         </head>
         <body>
-            <header>
-              <div class="navbar ininavgua ">
-                <div class="container">
-                  <a class="navbar-brand d-flex " href="#">
-                      <img src="assets/logo.png" width="186" height="47"  alt="">
-                  </a>
-                  <a href="#" style="font-size: 14px; text-decoration:none; color: #4d4d4d; text-transform:uppercase; font-weight:bold !important;">
-                    KEMBALI
-                  </a>
-                </div>
+          <header>
+            <div class="navbar ininavgua ">
+              <div class="container">
+                <a class="navbar-brand d-flex " href="#">
+                    <img src="assets/logo.png" width="140px" height="35px" style="margin-left:-30px; margin-bottom: 10px; margin-top: 10px;" alt="">
+                </a>
+                <a href="#" style="font-size: 14px; margin-right: -32px; text-decoration:none; color: #4d4d4d; text-transform:uppercase; font-weight:bold !important;">
+                  KEMBALI
+                </a>
               </div>
-            </header>
+            </div>
+          </header>
             <br><br><br><br><br><br><br><br><br>
             <div class="container " >
               <h1 class="text-center warna" style="font-size: 24px; margin-bottom: 3%; margin-top: 2%;">MASUK</h1>
@@ -31,10 +33,16 @@
                 </div>
                 <div class="testing">
                   <p class="warna">Email</p>
-                  <input type="email" class="inputan warna" style=" width: 95%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;" />
+                  <input type="email" spellcheck="false" class="inputan warna" style=" width: 95%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;" />
                   <p class="warna">Password</p>
-                  <input type="password" class="inputan warna" style="width: 95%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8;" /> <br>
-                  <input  type="checkbox" style=" margin-top :5%; margin-bottom: 5%;" class="warna" name="" value=""> &nbsp; Ingat saya <br>
+                  <div class="form-group has-feedback">
+                    <input type="password"  value="" class="inputan" id="password" style="width: 100%; margin-bottom: 3% ;border:none;  border-bottom: 1px solid #d8d8d8; ">
+                    <span id="hider"  onclick="pashider();" class="khususini far fa-eye-slash form-control-feedback"></span> <br>
+                  </div>
+                  <input  type="checkbox" style=" float: left; margin-top :10px; margin-bottom: 5%;" name="" value="">
+                    <div class="warna " style="margin-left: 25px; margin-top: 5px; ">
+                        Ingat saya<br> <br>
+                    </div>
                   <input type="submit" value="MASUK" class="btn tombol" style="font-weight:500 ;width: 95%; font-size: 13px; padding-top: 15px; padding-bottom: 15px">
                   <div class="container text-center" style="margin-top: 4%">
                       <a href="#" style="font-size: 15px; color: #e86b32; text-decoration:none;">Lupa Password?</a>
