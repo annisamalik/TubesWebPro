@@ -19,9 +19,7 @@ body {
   
   /* The navigation menu links */
   .sidenav a {
-    
     text-decoration: none;
-  
     display: block;
     transition: 0.3s;
   }
@@ -31,9 +29,7 @@ body {
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
-    transition: margin-left .5s;
-    margin-left: 15%;
-    padding: 20px;
+    margin-left: 14%;
   }
 
   .warnasidefont {
@@ -43,12 +39,58 @@ body {
       margin : 20px 0px 20px 20px
   }
 
+  .warnasidefont:hover {
+      text-decoration: none;
+      cursor: default;
+      
+  }
+
   .warnasidefont2 {
     color: rgb(138, 169, 195) !important;
     font-size: 90% !important;
     margin : 20px 0px 20px 20px
 }
+.warnasidefont2:hover {
+    text-decoration: none;
+    color: white !important;
+    margin-left: 10px;
+}
 
 .iniicon {
     padding-right: 7%;
+}
+
+.ininavgua {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 3px 7px -6px #999;
+}
+
+.sendiri {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif !important; 
+}
+
+#tombol {
+    background-image: linear-gradient(to right, rgb(243,157,91) , rgb(233,111,54)); 
+}
+
+.breadcrumb-item {
+    text-decoration: none !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content:none !important;
+}
+
+.inputan2 {
+    border: none !important;
+    border-bottom: 2px solid rgb(216,216,216) !important;
+    border-radius: 0 !important; 
+    width: 100% !important;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
