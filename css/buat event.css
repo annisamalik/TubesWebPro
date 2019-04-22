@@ -1,0 +1,47 @@
+.ininavgua {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 3px 7px -6px #999;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #fcfcfc !important;
+  }
+
+.ini:hover::placeholder {
+    color:rgb(232, 107, 50);
+}
+
+.ini::placeholder {
+    color : #898989;
+}
+
+.itu:hover {
+    color:rgb(232, 107, 50) !important;
+}
+
+.itu {
+    margin-bottom : -8px;
+}
+
+.itu2:hover {
+    color:rgb(232, 107, 50) !important;
+}
+
+.wow {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.abu {
+    color: #9f9f9f;
+}
+
+.gelap {
+    color : #595959;
+}
+
+.buttonini:hover {
+    border: 2px solid rgb(232, 107, 50) !important;
+}
