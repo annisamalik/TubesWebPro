@@ -27,4 +27,14 @@ class home extends CI_Controller {
 	{
 		$this->load->view('event');
 	}
+
+	public function menu(){
+
+		$this->load->view('menu');
+	}
+
+	public function buatevent(){
+
+		$this->load->view('buatevent');
+	}	
 }
